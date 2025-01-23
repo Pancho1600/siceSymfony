@@ -11,6 +11,6 @@ final class StudentsChangesController extends MainController
     #[Route('/students/changes', name: 'app_students_changes')]
     public function index(): JsonResponse
     {
-        return $this->obtenerProductos(1);  
+        return $this->obtenerProductos(1);   
     }
 }
